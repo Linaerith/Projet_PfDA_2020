@@ -23,7 +23,6 @@ def predict_time_before_resolution(unscaled_data):
        'isoWeekDay_3', 'isoWeekDay_4', 'isoWeekDay_5', 'isoWeekDay_6',
        'isoWeekDay_7', 'hour', 'month']
     path_to_model   = "../jupyter/model_RF.pkl"
-    path_for_scaler = "../jupyter/scaler.pkl"
     import numpy as np
     unscaled_data   = [unscaled_data[colonne] for colonne in colonnes]
     unscaled_data   = np.array(unscaled_data).reshape(1,-1)
