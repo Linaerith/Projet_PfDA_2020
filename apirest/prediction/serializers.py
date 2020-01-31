@@ -82,6 +82,5 @@ class EventSerializer(serializers.Serializer):
         instance.hour = validated_data.get('hour' , instance.hour )
         instance.month = validated_data.get('month' , instance.month )
         instance.priority = validated_data.get('priority' , instance.priority )
-        #instance.MEDV = validated_data.get('MEDV' , instance.MEDV )
         instance.save()
         return instance
