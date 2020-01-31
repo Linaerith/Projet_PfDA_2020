@@ -17,7 +17,7 @@ Requêtes implémentées :
 ```sh
 ❯ http://127.0.0.1:8000/event/{id}
 ```
-*  Post an event
+*  Post an event : 
 Testé via Postman
-*  Predict remaining time of an event
+*  Predict remaining time of an event : 
 Testé via Postman
